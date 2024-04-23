@@ -15,7 +15,7 @@ public: //alses modifier
 };
 
 class Matakuliah {
-
+private:
 };
 
 int main()
