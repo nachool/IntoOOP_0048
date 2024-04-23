@@ -7,7 +7,7 @@ public: //alses modifier
 	int umur;
 	string jurusan;
 
-	void input() {
+	void output() {
 		cout << "Nama: " << nama << endl;
 		cout << "Umur: " << umur << endl;
 		cout << "Jurusan: " << jurusan << endl;
@@ -39,6 +39,16 @@ int main()
 {
 	Mahasiswa mhs;
 	Matakuliah mk;
+
+	mhs.nama = "Budi";
+	mhs.umur = 20;
+	mhs.jurusan = "Teknik Informatika";
+	mhs.output();
+
+	mk.input();
+	mk.output();
+
+	return 0;
 }
 
 
