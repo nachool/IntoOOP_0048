@@ -8,6 +8,10 @@ private:
 	float panjag, lebar;
 public:
 	float luas;
+
+	void input() {
+
+	}
 };
 
 int main()
