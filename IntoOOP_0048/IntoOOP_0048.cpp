@@ -6,6 +6,16 @@ public: //alses modifier
 	string nama;
 	int umur;
 	string jurusan;
+
+	void input() {
+		cout << "Nama: " << nama << endl;
+		cout << "Umur: " << umur << endl;
+		cout << "Jurusan: " << jurusan << endl;
+	}
+};
+
+class Matakuliah {
+
 };
 
 int main()
