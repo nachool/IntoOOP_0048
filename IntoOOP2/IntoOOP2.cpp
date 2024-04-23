@@ -7,6 +7,7 @@ class bangunDatar {
 private:
 	float panjag, lebar;
 public:
+	float luas;
 };
 
 int main()
