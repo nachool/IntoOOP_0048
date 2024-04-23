@@ -6,6 +6,7 @@ class bangunDatar {
 	//akses modifier
 private:
 	float panjag, lebar;
+public:
 };
 
 int main()
