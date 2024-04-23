@@ -15,7 +15,10 @@ public:
 		cin >> panjang;
 		cout << "Masukkan lebar = ";
 		cin >> lebar;
+	}
 
+	float hitungLuas(){
+		return panjang * lebar;
 	}
 };
 
